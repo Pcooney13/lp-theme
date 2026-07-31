@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Themes
+/web/app/themes/twentytwentyfive
+
+# WordPress
+/web/wp
+/web/.htaccess
+
+# Uploads
+/web/app/uploads/*
+!/web/app/uploads/.gitkeep
+
+# Cache
+/web/app/cache/*
+
+# Logs
+*.log
+
+# Composer
+auth.json
+
+# WP-CLI
+wp-cli.local.yml
+
+# IDE
+.vscode/
+.idea/
