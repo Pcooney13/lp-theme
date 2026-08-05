@@ -1,0 +1,38 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "launchpad/event-dates",
+	"title": "Event Dates",
+	"description": "Displays the event dates and times from the Dates repeater.",
+	"category": "widgets",
+	"icon": "calendar-alt",
+	"keywords": [
+		"event",
+		"dates",
+		"schedule",
+		"time"
+	],
+	"textdomain": "launchpad",
+	"editorScript": "file:./index.js",
+	"style": "file:./style.css",
+	"render": "file:./render.php",
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"color": {
+			"text": true,
+			"background": true
+		},
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true
+		},
+		"spacing": {
+			"margin": true,
+			"padding": true
+		},
+		"html": false
+	}
+}

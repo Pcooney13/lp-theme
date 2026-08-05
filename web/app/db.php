@@ -1,0 +1,1 @@
+/Users/pcooney/Local Sites/launchpad/app/public/web/app/plugins/query-monitor/wp-content/db.php
